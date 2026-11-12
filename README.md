@@ -273,3 +273,5 @@ npm test
 4. **Restart-Safe Reminders**: Because node processes can restart at any point during a workday, reminder states are saved immediately to SQLite (`reminded_24h`, `reminded_2h`, `reminded_overdue`, `break_reminded`, and `meta` date keys) rather than relying on in-memory timers.
 5. **Session Clipping**: For sessions that cross boundary lines (e.g. a session running from 23:45 Sunday to 00:30 Monday), reports clip the session duration to the requested interval so daily, weekly, and monthly totals remain strictly contained within their respective windows.
 
+#   Z e n - X e a - D i s c o r d - B o t -  
+ 

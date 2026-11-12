@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-zen-xea",
+  "version": "1.0.0",
+  "description": "Production-quality Discord task and time tracking bot for internal server departments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "task-tracker",
+    "time-tracker",
+    "discord-js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "luxon": "^3.7.2",
+    "node-cron": "^4.2.1"
+  }
+}
